@@ -1,0 +1,70 @@
+@media only screen and (min-width:420px) and (max-width:767px){
+    main{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .menu-items{
+        min-height: 360px;
+    }
+    .noticias{
+        flex-direction: column-reverse;
+        align-items: center;
+        .filtro{
+            width: 25%;
+            margin-left: 52px;
+            margin-bottom: 30px;
+        }
+        .resultado{
+            width: 100%;
+            .noticia{
+                width: 400px;
+            }
+        }
+        
+    }
+    .buscador{
+        height: 150px;
+        width: 80%;
+        margin: 10px auto;
+        .form{
+            form{
+                width: 100%;
+                height: 118px;
+                flex-direction: column;
+                .boton{
+                    width: 30%;
+                }
+            }
+        }
+        
+    }
+    .login-form{
+        width: 66%;
+        margin: auto;
+        min-height: 75vh;    
+    
+    div{
+        width: 100%;
+        margin: auto;
+        margin-top: 18px;
+        text-align: center;
+        input{
+            width: 90%;
+            height: 35px;
+            margin: auto;
+        }
+        
+        }
+        .boton-login{
+            #ingreso{
+            height: 55px;
+        }
+    }
+    } 
+    .form-reg{
+        min-height: 85vh;
+    }
+}

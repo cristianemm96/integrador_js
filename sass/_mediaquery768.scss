@@ -1,0 +1,38 @@
+@media only screen and (min-width:768px) and (max-width:856px){
+    main{
+        width: 100%;
+        margin: auto;
+        min-height: 55vh;
+        .buscador{
+            margin-top: 10px;
+            width: 85%;
+        }
+    }
+    .noticias{
+        min-height: 400px;
+        .resultado{
+            width: 80%;
+            margin-right: 96px;
+        }
+        .filtro{
+            position: fixed;
+            width: 13%;
+            right: 8vw;
+            top: 40vh;
+            margin-top: 40px;
+    }
+    }
+    .msgVacio{
+        height: 50px;
+        p{
+            padding-top: 30px;
+        }
+    }
+    .login-form{
+        min-height: 75vh;    
+        width: 50%;  
+    }
+    .form-reg{
+        min-height: 85vh;
+    }
+}

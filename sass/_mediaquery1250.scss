@@ -1,0 +1,36 @@
+@media only screen and (min-width:1250px)  {
+    .noticias{
+        width: 95%;
+        min-height: 70vh;
+        .resultado{
+            width: 90%;
+            margin-left:155px;
+            max-width: 915px;
+            .noticia{
+                width: 320px;
+            }
+        }
+        .filtro{
+            width: 12%;
+            margin-right: 87px;
+            margin-bottom: 30px;
+            right: 11vh;
+            position: fixed;
+        }
+    }
+    .buscador{
+        .form{
+            form{
+                width: 60%;
+                margin: auto;
+            }
+        }
+    }
+    .login-form{
+        min-height: 75vh;
+        width: 35%;    
+    }
+    .form-reg{
+        min-height: 85vh;
+    }
+}
